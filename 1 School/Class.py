@@ -8,7 +8,7 @@ class Class:
         self.teachers = []
 
     def get_best_student(self):
-        max_avg_grade = 0 
+        max_avg_grade = 0
         for students in self.students:
             if student.get_average_grade() > max_avg_grade:
                 max_avg_grade = student.get_average_grade()

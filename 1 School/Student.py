@@ -17,8 +17,6 @@ class Student:
         avarage_grades = sum_of_grades/amount_of_grades
         return avarage_grades
 
-    def __eq__(self, other): 
+    def __eq__(self, other):
         return self.__dict__ == other.__dict__
 
-    
-        
